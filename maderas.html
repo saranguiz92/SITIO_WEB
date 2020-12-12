@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sitio Responsivo Bootstrap">
+    <meta name="author" content="Saul Aranguiz">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html, etiquetas semanticas">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- CSS propios -->
+    <link rel="icon" href="img/ttlogo11.jpg" type="images/jpg">
+    <link rel="stylesheet" href="css/reloj.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <title>Maderas</title>
+</head>
+<body class="bg-dark text-white">
+    <!-- Inicio seccion NAVBAR -->
+
+    <nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+        <!-- Logotipo empresa-->
+      <a class="navbar-brand" href=""> 
+        <img src="img/ttlogo11.jpg" height="100px" width="100px" alt="Icono empresa">
+        </a>
+        <!--Boton hamburguesa-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavBar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Links Boton Hamburguesa-->
+        <div class="collapse navbar-collapse" id="collapsibleNavBar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gomas.html">Gomas</a>
+
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="maderas.html">Maderas</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vestimenta.html">Vestimenta</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="acerca_de.html">Acerca de</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownNavBar" 
+                    data-toggle="dropdown"> Sitios Interés</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://www.ittf.com/">ITTF</a>
+                        <a class="dropdown-item" href="https://ultm.org/">ULTM</a>
+                        <a class="dropdown-item" href="https://tv.ittf.com/">ITTV</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--Inicio Reloj y Fecha -->
+    <div class="wrap">
+		<div class="widget">
+			<div class="fecha">
+				<p id="diaSemana" class="diaSemana"></p>
+				<p id="dia" class="dia"></p>
+				<p>de </p>
+				<p id="mes" class="mes"></p>
+				<p>del </p>
+				<p id="year" class="year"></p>
+			</div>
+	
+			<div class="reloj">
+				<p id="horas" class="horas"></p>
+				<p>:</p>
+				<p id="minutos" class="minutos"></p>
+				<p>:</p>
+				<div class="caja-segundos">
+					<p id="ampm" class="ampm"></p>
+					<p id="segundos" class="segundos"></p>
+				</div>
+			</div>
+		</div>
+	</div> 
+    <script src="js/reloj.js"></script>
+    
+    <!--Fin Reloj y fecha -->
+        
+    </nav>
+    <!-- Fin Seccion-->
+
+    <!--Contenidos usando GRID -->
+<div class="container">
+    <h3 class="display-4">Maderas de competición</h3>
+    <div class="row mt-4 mb-6">
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/001-long5.PNG" alt="Imagen">
+            <h4 class="display-6 ">DHS Hurricane Long 5</h4>
+            <p>Hurricane LONG 5 tiene 7 capas (5 de madera y 2 de arylate carbono) y es la más rápida de las series DHS Long. Si te falta algo de velocidad con la pelota de plástico, con DHS Hurricane Long 5 quedará solventado. </p>            
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/002-nittaku.PNG" alt="Imagen">
+            <h4 class="display-6 ">Nittaku Acoustic</h4>
+            <p>Madera con sistema de sensibilidad utilizado en los instrumentos musicales que le da un toque finísimo y espectacular. Acoustic es la versión OFF de esta línea de maderas con grosor total de 5.7mm y peso aproximado de 90 gramos. Atacante y excepcional en las devoluciones. Fabricada en Japón.</p>           
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/003-waldner.PNG" alt="Imagen">
+            <h4 class="display-6 ">Donic Waldner Legend Carbon</h4>
+            <p>La Waldner Legend Carbon es una fantástica madera ofensiva rápida, extremadamente ofensiva y con amplio sweet spot que garantiza mucho más feeling. La selección de capas perfectamente combinadas (Hinoki exterior con fibras de carbono con capa interior blanda) le dan alta velocidad y dureza. </p>
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/004-viscaria.PNG" alt="Imagen">
+            <h4 class="display-6 ">Butterfly Viscaria</h4>
+            <p>esde su introducción en 1993, VISCARIA sigue siendo una de las hojas Butterfly más populares. El golpe y la precisión típicos de ALC, combinados con un tiempo de permanencia moderado, hacen de la VISCARIA una excelente hoja con efecto topspin versátil.</p>
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/005-androtimber.jpg" alt="Imagen">
+            <h4 class="display-6 ">ANDRO Timber 5 ALL/S </h4>
+            <p>¡Sólo 70 gramos!. Situar la bola perfectamente en el lugar deseado es una tarea fácil para esta madera de carbono de alta gama. Invencible en su retroceso y precisión al cambiar del juego activo al pasivo con total facilidad. </p>
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/006-waldnersensocarbon.jpg" alt="Imagen">
+            <h4 class="display-6 ">Donic Waldner Senso Carbon</h4>
+            <p>Basada en la famosa DONIC Appelgren AllPlay per con sistema V1 incorporado. Bastante elástica y buen balance junto con poco peso. Incorpora dos láminas de carbón de altísima calidad que proporcionan unas magníficas sensaciones para equilibrar y dar potencia al juego. Dispone la velocidad justa para el jugador inteligente de ataque.</p>
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/007-tibharforce.jpg" alt="Imagen">
+            <h4 class="display-6 ">TIBHAR Force Pro Black Edition</h4>
+            <p>La hermana pequeña de la Samsonov Force Pro. Cuenta con una excelente velocidad y es compatible con una buena aceleración. Perfecta para los jugadores ofensivos que prefieren la sensación, velocidad y efecto en sus golpes.</p>
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/008donicwaldnersensoultracarbon.jpg" alt="Imagen">
+            <h4 class="display-6 ">Donic Waldner Senso Ultra Carbon</h4>
+            <p>Jan-Ove Waldner ha sido en el tenis de mesa lo que Mozart a la música. La Waldner Ultra Carbon es una madera ligera de carbón con impresionante control de pelota y toque - ideal para el jugador que busca inspiración. Velocidad incrementada por las placas de duro carbón situadas entre láminas relativamemte delgadas. Control soberbio - típico de Waldner.</p>
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/009-samsonov.jpg" alt="Imagen">
+            <h4 class="display-6 ">Tibhar Samsonov Alpha</h4>
+            <p>Vladimir Samsonov jugó con esta madera ofensiva desarrollada para jugadores como él, intuitivos. La combinación de madera natural en sus capas exteriores con una fuerte capa intermedia adicional garantiza una mejor capacidad de recuperación de la pelota con más control. Ideal para controlar, el juego ofensico orientado a atacar a juego con una gran cantidad de presión.</p>
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+    </div>
+</div>
+<!--Fin contenido usando GRID-->
+
+        <!-- Inicio Sección FOOTER --> 
+        <footer class="footer bg-secondary text-white">
+        <div class="container-fluid text-center text-md-left ">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="text-uppercase">Mi Tiendita Tenis de Mesa</h5>
+                    <p>Dirección: San Francisco 5947, San Miguel, Santiago </p>
+                    <p>Horario de atención : Lunes a Viernes 9:00-18:00</p>
+                </div>
+                <div class="col-md-9">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="acerca_de.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Fin sección Footer-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+    <!-- JS Propios  -->
+
+
+</body>
+</html>

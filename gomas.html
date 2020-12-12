@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es-cl">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Sitio Responsivo Bootstrap">
+        <meta name="author" content="Saul Aranguiz">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="html, etiquetas semanticas">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">    
+        <!-- CSS propios -->
+        <link rel="icon" href="img/ttlogo11.jpg" type="images/jpg">       
+        <link rel="stylesheet" href="css/reloj.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+        
+        
+    <title>Gomas</title>
+</head>
+<body class="bg-dark text-white">
+
+    <!-- Inicio seccion NAVBAR -->
+
+    <nav class="navbar navbar-expand-md bg-secondary navbar-dark">
+        <!-- Logotipo empresa-->
+      <a class="navbar-brand" href=""> 
+        <img src="img/ttlogo11.jpg" height="100px" width="100px" alt="Icono empresa">
+        </a>
+        <!--Boton hamburguesa-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavBar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--Links Boton Hamburguesa-->
+        <div class="collapse navbar-collapse" id="collapsibleNavBar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gomas.html">Gomas</a>
+
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="maderas.html">Maderas</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="vestimenta.html">Vestimenta</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="acerca_de.html">Acerca de</a>
+
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdownNavBar" 
+                    data-toggle="dropdown"> Sitios Interés</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://www.ittf.com/">ITTF</a>
+                        <a class="dropdown-item" href="https://ultm.org/">ULTM</a>
+                        <a class="dropdown-item" href="https://tv.ittf.com/">ITTV</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <!--Inicio Reloj y Fecha -->
+    <div class="wrap">
+		<div class="widget">
+			<div class="fecha">
+				<p id="diaSemana" class="diaSemana"></p>
+				<p id="dia" class="dia"></p>
+				<p>de </p>
+				<p id="mes" class="mes"></p>
+				<p>del </p>
+				<p id="year" class="year"></p>
+			</div>
+	
+			<div class="reloj">
+				<p id="horas" class="horas"></p>
+				<p>:</p>
+				<p id="minutos" class="minutos"></p>
+				<p>:</p>
+				<div class="caja-segundos">
+					<p id="ampm" class="ampm"></p>
+					<p id="segundos" class="segundos"></p>
+				</div>
+			</div>
+		</div>
+	</div> 
+    <script src="js/reloj.js"></script>
+    
+    <!--Fin Reloj y fecha -->
+        
+    </nav>
+    <!-- Fin Seccion-->
+
+<!--Contenidos usando GRID -->
+<div class="container">
+    <h3 class="display-4">Gomas de competición</h3>
+    <div class="row mt-4 mb-6">
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/001-dnapro.PNG" alt="Imagen">
+            <h4 class="display-6 ">Stiga DNA Pro M</h4>
+            <p>La nueva gama de gomas STIGA DNA PRO SERIES fabricadas en Alemania, están diseñadas para una amplia gama de jugadores de tenis de mesa y estilos de juego, la DNA Pro M es la de esponja de dureza media de la gama..</p>            
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/002-h3.PNG" alt="Imagen">
+            <h4 class="display-6 ">DHS Hurricane 3</h4>
+            <p>Sinónima de potencia. Caucho exterior con tratamiento viscoso especial que crea un arco de top increiblemente rápido, mejorando las abilidades del jugador. NEO HURRICANE III es rápida en cada situación, permite variar de golpes cortos a largos con pasmosa facilidad y tiene un efecto envidiable.</p>           
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/003-blue.PNG" alt="Imagen">
+            <h4 class="display-6 ">Donic Bluefire</h4>
+            <p>Nueva Bluefire de DONIC es un desarrollo completamente nuevo de gomas que ofrece la máxima velocidad. Una nueva generación de alta tecnología de gomas en la probada Formula FD3-Tecnology, ha sido desarrollada como resultado de la combinación perfecta de una esponja azul con grandes poros y una superficie superior de caucho que produce alta rotación sobre la pelota.</p>
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/004-r48.PNG" alt="Imagen">
+            <h4 class="display-6 ">Andro Rasant R48</h4>
+            <p>Tu juego está cargado de efectos y velocidad. Fuerzas el punto con tu poderoso y persistente juego de topspin.
+                Rompe con lo convencional, usa las fortalezas de la tecnología ENERGY CELL: más potencia y calidad en tus golpes, alto dinamismo y mayor sensación de contacto con la pelota.</p>
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/005-mxp.PNG" alt="Imagen">
+            <h4 class="display-6 ">Tibhar Evolution MX-P</h4>
+            <p>MX-P es la goma más rápida de la familia EVOLUTIÓN. Gracias al ajuste perfecto de la geometría de los picos, se ha logrado producir una goma con más flexibilidad que le permite  atacar a bolas con un energía extra.</p>
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/006-tenergy80.jpg" alt="Imagen">
+            <h4 class="display-6 ">Butterfly Tenergy 80</h4>
+            <p>TENERGY 80 equilibra el efecto y la velocidad al más alto nivel en la serie TENERGY. Se adoptaron espinillas con el código 180 para esta goma, que se desarrollaron para hacer posible un juego más equilibrado. TENERGY 80 permite un juego topspin completo, ataque y contraataque para cada estilo de juego.</p>
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/007-dignics09c.jpg" alt="Imagen">
+            <h4 class="display-6 ">Butterfly Dignics 09c</h4>
+            <p>on una superficie pegajosa, DIGNICS 09c ofrece una inmensa fricción y agarre que conduce a un alto valor de giro y una trayectoria curva durante el efecto liftado si se genera suficiente potencia para impactar el Spring Sponge X de 44 °. El requisito de potencia, junto con la velocidad comparativamente baja hace DIGNICS 09c una opción para jugadores de mayor nivel de habilidad y ambición, que buscan los beneficios de una goma pegajosa.</p>
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/008-rozena.jpg" alt="Imagen">
+            <h4 class="display-6 ">Butterfly Rozena</h4>
+            <p>ROZENA, una goma equipada con la impresionante Esponja Primavera; su característica es la alta tolerancia gracias a la combinación de Spring Sponge teñido en rosa con una hoja superior de nuevo desarrollo. La exclusiva tecnología High Tension desarrollada por Butterfly permite realizar golpes potentes, así como un alto nivel de consistencia en el juego creado al compensar los delicados errores como el ángulo y la dirección de la hoja. ROZENA sigue la calidad de los antecesores legendarios demostrando su eficacia en jugadas cerca de la mesa o en media distancia.</p>
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+        <br>
+        <div class="col-md-4">
+            <img class="img-fluid" src="img/009-bryce.jpg" alt="Imagen">
+            <h4 class="display-6 ">Butterfly Bryce High Speed</h4>
+            <p>La nueva y potente goma de Butterfly, que utiliza la innovadora tecnología “Micro Layer”, le da al BRYCE HIGHSPEED una estructura de superficie mucho más fina en comparación con otras gomas. Como resultado, la compresión de la goma aumenta con el impacto de la pelota, lo que proporciona un agarre y un efecto adicionales. BRYCE HIGHSPEED es ideal para jugadores ambiciosos que buscan una goma de alta potencia.</p>
+            <a class="btn btn-primary" href="#">Ver detalles</a>
+        </div>
+    </div>
+</div>
+<!--Fin contenido usando GRID-->
+
+        <!-- Inicio Sección FOOTER --> 
+        <footer class="footer bg-secondary text-white">
+        <div class="container-fluid text-center text-md-left ">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 class="text-uppercase">Mi Tiendita Tenis de Mesa</h5>
+                    <p>Dirección: San Francisco 5947, San Miguel, Santiago </p>
+                    <p>Horario de atención : Lunes a Viernes 9:00-18:00</p>
+                </div>
+                <div class="col-md-9">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="acerca_de.html">Acerca de</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Fin sección Footer-->
+    
+    
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+    <!-- JS Propios  -->
+
+
+</body>
+</html>
